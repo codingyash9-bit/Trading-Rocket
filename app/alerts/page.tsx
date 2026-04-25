@@ -14,6 +14,8 @@ import PaperPortfolio from '@/components/pages/PaperPortfolio';
 import MarketIntelligence from '@/components/pages/MarketIntelligence';
 import AetherPage from '@/app/aether/page';
 import ChartAnalysisPage from '@/app/chart-analysis/page';
+import WargamePage from '@/app/wargame/page';
+import GraveyardPage from '@/app/graveyard/page';
 import type { NavigationSection } from '@/types';
 
 const pageComponents: Record<NavigationSection, React.FC> = {
@@ -25,6 +27,8 @@ const pageComponents: Record<NavigationSection, React.FC> = {
   'paper-portfolio': PaperPortfolio,
   'aether': AetherPage,
   'chart-analysis': ChartAnalysisPage,
+  'wargame': WargamePage,
+  'graveyard': GraveyardPage,
 };
 
 const pathToSection: Record<string, NavigationSection> = {
@@ -37,6 +41,8 @@ const pathToSection: Record<string, NavigationSection> = {
   '/features': 'stock-intelligence',
   '/aether': 'aether',
   '/chart-analysis': 'chart-analysis',
+  '/wargame': 'wargame',
+  '/graveyard': 'graveyard',
 };
 
 const BackButton: React.FC = () => {

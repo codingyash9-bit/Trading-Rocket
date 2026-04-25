@@ -17,6 +17,8 @@ import type { NavigationSection } from '@/types';
 const AetherRedirect: React.FC = () => { const r = useRouter(); useEffect(() => { r.push('/aether'); }, [r]); return null; };
 
 import ChartAnalysisPage from '@/app/chart-analysis/page';
+import WargamePage from '@/app/wargame/page';
+import GraveyardPage from '@/app/graveyard/page';
 
 const pageComponents: Record<NavigationSection, React.FC> = {
   'stock-intelligence': StockIntelligence,
@@ -27,6 +29,8 @@ const pageComponents: Record<NavigationSection, React.FC> = {
   'paper-portfolio': PaperPortfolio,
   'aether': AetherRedirect,
   'chart-analysis': ChartAnalysisPage,
+  'wargame': WargamePage,
+  'graveyard': GraveyardPage,
 };
 
 const pathToSection: Record<string, NavigationSection> = {
@@ -39,6 +43,8 @@ const pathToSection: Record<string, NavigationSection> = {
   '/features': 'stock-intelligence',
   '/aether': 'aether',
   '/chart-analysis': 'chart-analysis',
+  '/wargame': 'wargame',
+  '/graveyard': 'graveyard',
 };
 
 const BackButton: React.FC = () => {

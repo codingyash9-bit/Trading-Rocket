@@ -2,6 +2,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAIResponse } from '@/lib/gemini';
 
+const mockData: Record<string, { ticker: string; direction: string; confidence: number; reason: string }> = {
+  'grave-INFY-0': { ticker: 'INFY', direction: 'BULLISH', confidence: 85, reason: 'Revenue miss of 3%' },
+  'grave-TATASTEEL-1': { ticker: 'TATASTEEL', direction: 'BEARISH', confidence: 78, reason: 'China demand surge' },
+  'grave-BHARTIARTL-2': { ticker: 'BHARTIARTL', direction: 'BULLISH', confidence: 72, reason: 'ARPU guidance cut' },
+};
+
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
@@ -10,12 +16,6 @@ export async function GET(request: NextRequest) {
     if (!predictionId) {
       return NextResponse.json({ error: 'Prediction ID required' }, { status: 400 });
     }
-
-    const mockData: Record<string, { ticker: string; direction: string; confidence: number; reason: string }> = {
-      'grave-INFY-0': { ticker: 'INFY', direction: 'BULLISH', confidence: 85, reason: 'Revenue miss of 3%' },
-      'grave-TATASTEEL-1': { ticker: 'TATASTEEL', direction: 'BEARISH', confidence: 78, reason: 'China demand surge' },
-      'grave-BHARTIARTL-2': { ticker: 'BHARTIARTL', direction: 'BULLISH', confidence: 72, reason: 'ARPU guidance cut' },
-    };
 
     const mock = mockData[predictionId] || {
       ticker: 'UNKNOWN',
@@ -53,7 +53,7 @@ Rules:
   } catch (error) {
     console.error('Epitaph generation error:', error);
     return NextResponse.json({
-      epitaph: `${mockData[predictionId || '']?.ticker || 'UNKNOWN'} called ${mockData[predictionId || '']?.direction || 'BULLISH'} at ${mockData[predictionId || '']?.confidence || 50}% confidence — killed by ${mockData[predictionId || '']?.reason || 'market forces'}.`,
+      epitaph: 'UNKNOWN called BULLISH at 50% confidence — killed by market forces.',
       cached: false
     });
   }
