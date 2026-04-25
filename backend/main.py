@@ -44,8 +44,8 @@ async def startup_db_client():
         db.connect()
     db.create_tables([PortfolioReport, RadarStock])
 
-# Restricted CORS for Production
-allowed_origins_raw = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000")
+# CORS for Production - allow Vercel frontend
+allowed_origins_raw = os.getenv("ALLOWED_ORIGINS", "https://td-fawn.vercel.app,http://localhost:3000,http://127.0.0.1:3000")
 allowed_origins = [origin.strip() for origin in allowed_origins_raw.split(",")]
 
 app.add_middleware(
