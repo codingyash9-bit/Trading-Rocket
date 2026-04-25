@@ -6,6 +6,7 @@ import TransitionOverlayWrapper from '@/components/TransitionOverlayWrapper';
 import FloatingOrb from '@/components/FloatingOrb';
 import AuthProvider from '@/components/AuthProvider';
 import FlashSignals from '@/components/FlashSignals';
+import DemoModeBanner from '@/components/DemoModeBanner';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -63,6 +64,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="font-inter antialiased text-white bg-black antialiased">
+        <DemoModeBanner />
         <AuthProvider>
           <TransitionProvider>
             <TransitionOverlayWrapper />
