@@ -1,0 +1,41 @@
+[
+  {
+    "id": "bae4d3b3-b1df-4118-8502-9501ec162d31",
+    "user_id": "seed_user_123",
+    "sector": "Energy",
+    "market_cap_category": "LARGE",
+    "total_cases": 1,
+    "direction_accuracy_rate": 1.0,
+    "avg_time_error_days": -2.0,
+    "range_hit_rate": 1.0,
+    "over_bullish_rate": 0.0,
+    "speed_underestimate_rate": 1.0,
+    "last_updated": "2026-04-25T19:35:56.633094"
+  },
+  {
+    "id": "d5d87f56-a044-4523-a249-fffdd574d35e",
+    "user_id": "seed_user_123",
+    "sector": "IT",
+    "market_cap_category": "LARGE",
+    "total_cases": 1,
+    "direction_accuracy_rate": 1.0,
+    "avg_time_error_days": 0.0,
+    "range_hit_rate": 0.0,
+    "over_bullish_rate": 0.0,
+    "speed_underestimate_rate": 0.0,
+    "last_updated": "2026-04-25T19:35:56.642942"
+  },
+  {
+    "id": "07f775b4-3e87-435b-81a4-01b70789c625",
+    "user_id": "seed_user_123",
+    "sector": "Consumer",
+    "market_cap_category": "LARGE",
+    "total_cases": 1,
+    "direction_accuracy_rate": 0.0,
+    "avg_time_error_days": -3.0,
+    "range_hit_rate": 0.0,
+    "over_bullish_rate": 1.0,
+    "speed_underestimate_rate": 1.0,
+    "last_updated": "2026-04-25T19:35:56.651798"
+  }
+]

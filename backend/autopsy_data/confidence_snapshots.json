@@ -1,0 +1,338 @@
+[
+  {
+    "id": "0fb80709-490d-4f44-8932-31a18d933a29",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-03-22T19:35:56.128571",
+    "price_on_date": 2801.6879878386517,
+    "confidence_on_date": 64,
+    "distance_from_falsification": 3.766221771801914
+  },
+  {
+    "id": "44ecdaaf-5ca7-414f-aa4f-a872b9b738bc",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-03-23T19:35:56.128571",
+    "price_on_date": 2806.9025289603696,
+    "confidence_on_date": 51,
+    "distance_from_falsification": 3.9593529244581345
+  },
+  {
+    "id": "045e623a-6535-4668-9ed3-71fdcdef6667",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-03-24T19:35:56.128571",
+    "price_on_date": 2847.048765327603,
+    "confidence_on_date": 53,
+    "distance_from_falsification": 5.446250567689007
+  },
+  {
+    "id": "41210667-d793-4b68-b361-c7df58af07e0",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-03-25T19:35:56.128571",
+    "price_on_date": 2865.2996446092243,
+    "confidence_on_date": 56,
+    "distance_from_falsification": 6.122209059600899
+  },
+  {
+    "id": "8ebc375f-72b7-4ead-8dee-8ce066ce0081",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-03-26T19:35:56.128571",
+    "price_on_date": 2872.99490631259,
+    "confidence_on_date": 59,
+    "distance_from_falsification": 6.40721875231815
+  },
+  {
+    "id": "76a99cfe-90de-4fc3-824e-a3fce84c25fe",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-03-27T19:35:56.128571",
+    "price_on_date": 2905.9432052223037,
+    "confidence_on_date": 62,
+    "distance_from_falsification": 7.627526119344583
+  },
+  {
+    "id": "6c219d47-ee20-4fa7-a943-baf500eb7702",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-03-28T19:35:56.128571",
+    "price_on_date": 2901.1301590847465,
+    "confidence_on_date": 65,
+    "distance_from_falsification": 7.449265151286909
+  },
+  {
+    "id": "272ebc99-992f-4f98-aeeb-61c5436c9581",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-03-29T19:35:56.128571",
+    "price_on_date": 2917.293736183488,
+    "confidence_on_date": 68,
+    "distance_from_falsification": 8.047916154943996
+  },
+  {
+    "id": "7042b24e-31fb-404e-83fb-4b9d2656d097",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-03-30T19:35:56.128571",
+    "price_on_date": 2920.1344581044686,
+    "confidence_on_date": 72,
+    "distance_from_falsification": 8.153128077943283
+  },
+  {
+    "id": "271fe766-2d4e-4ead-8fab-a4803d2f154a",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-03-31T19:35:56.128571",
+    "price_on_date": 2918.6408086870942,
+    "confidence_on_date": 75,
+    "distance_from_falsification": 8.097807729151638
+  },
+  {
+    "id": "7f1787f0-ade6-47ac-a24b-8f4dea52e9a8",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-04-01T19:35:56.128571",
+    "price_on_date": 2919.4973077173704,
+    "confidence_on_date": 79,
+    "distance_from_falsification": 8.129529915458162
+  },
+  {
+    "id": "8dbbc558-936f-4b0d-b727-3eb5e8b21361",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-04-02T19:35:56.128571",
+    "price_on_date": 2957.1479160171857,
+    "confidence_on_date": 83,
+    "distance_from_falsification": 9.523996889525396
+  },
+  {
+    "id": "8003a79c-c75f-43cd-8ed8-33fbc8d90741",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-04-03T19:35:56.128571",
+    "price_on_date": 2979.792170743201,
+    "confidence_on_date": 87,
+    "distance_from_falsification": 10.362672990488928
+  },
+  {
+    "id": "54f7592e-f8ab-4fd9-9a22-1a8acbf9ede2",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "snapshot_date": "2026-04-04T19:35:56.128571",
+    "price_on_date": 2982.5612356888805,
+    "confidence_on_date": 91,
+    "distance_from_falsification": 10.465230951440018
+  },
+  {
+    "id": "5fa6ddd6-ce86-4398-8d92-d25938e50303",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-01T19:35:56.128571",
+    "price_on_date": 4068.4437168657655,
+    "confidence_on_date": 60,
+    "distance_from_falsification": 4.2719125443349295
+  },
+  {
+    "id": "5b3d5803-20f4-4945-a969-79d9aa52a9e1",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-02T19:35:56.128571",
+    "price_on_date": 4071.101287696041,
+    "confidence_on_date": 48,
+    "distance_from_falsification": 4.20938146597551
+  },
+  {
+    "id": "0e7ada61-08e5-42ef-b28d-76fff1aab9ca",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-03T19:35:56.128571",
+    "price_on_date": 4052.320539009571,
+    "confidence_on_date": 38,
+    "distance_from_falsification": 4.65128143506892
+  },
+  {
+    "id": "be06234f-e3f6-498a-aecd-1ef1315d115c",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-04T19:35:56.128571",
+    "price_on_date": 4051.4858853636174,
+    "confidence_on_date": 30,
+    "distance_from_falsification": 4.670920344385473
+  },
+  {
+    "id": "84e27c9a-7fc5-44b7-b41c-6e8c6da00c58",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-05T19:35:56.128571",
+    "price_on_date": 4070.9846148094985,
+    "confidence_on_date": 24,
+    "distance_from_falsification": 4.212126710364742
+  },
+  {
+    "id": "b9a2cc9d-69b4-45eb-890e-6231194ab80e",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-06T19:35:56.128571",
+    "price_on_date": 4049.234573338881,
+    "confidence_on_date": 19,
+    "distance_from_falsification": 4.723892392026327
+  },
+  {
+    "id": "7099d593-be45-46df-b51d-a26477ddaec0",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-07T19:35:56.128571",
+    "price_on_date": 4067.612048170548,
+    "confidence_on_date": 15,
+    "distance_from_falsification": 4.291481219516519
+  },
+  {
+    "id": "102e464d-5c71-440c-b412-8a3a82bfe410",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-08T19:35:56.128571",
+    "price_on_date": 4076.915992464,
+    "confidence_on_date": 12,
+    "distance_from_falsification": 4.0725648832000045
+  },
+  {
+    "id": "94b5e595-af5a-4c20-938d-09aa3d1bdb8f",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-09T19:35:56.128571",
+    "price_on_date": 4091.937460484461,
+    "confidence_on_date": 10,
+    "distance_from_falsification": 3.71911857683621
+  },
+  {
+    "id": "a7bf2686-80a3-4bfc-863d-8d890a88be1f",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-10T19:35:56.128571",
+    "price_on_date": 4045.892002863172,
+    "confidence_on_date": 8,
+    "distance_from_falsification": 4.8025411091018375
+  },
+  {
+    "id": "d0f2de02-4ed4-4285-aefb-41cf13de2634",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-11T19:35:56.128571",
+    "price_on_date": 4074.5225359932297,
+    "confidence_on_date": 6,
+    "distance_from_falsification": 4.128881506041655
+  },
+  {
+    "id": "4fab16d7-9458-4681-8064-74a95caed09c",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-12T19:35:56.128571",
+    "price_on_date": 4096.186423266359,
+    "confidence_on_date": 5,
+    "distance_from_falsification": 3.6191429819680176
+  },
+  {
+    "id": "cfc8e675-aa0f-4800-8901-9f1ed659a26c",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-13T19:35:56.128571",
+    "price_on_date": 4105.367691857612,
+    "confidence_on_date": 4,
+    "distance_from_falsification": 3.403113132762069
+  },
+  {
+    "id": "f75ab117-82e5-4c0b-8b66-9e6efe8756a1",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "snapshot_date": "2026-04-14T19:35:56.128571",
+    "price_on_date": 4087.0315018722677,
+    "confidence_on_date": 3,
+    "distance_from_falsification": 3.834552897123114
+  },
+  {
+    "id": "bce4107c-3f6d-46e0-a334-8f13bcab850d",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-10T19:35:56.128571",
+    "price_on_date": 149.2208445629989,
+    "confidence_on_date": 94,
+    "distance_from_falsification": 10.533958935554745
+  },
+  {
+    "id": "3c749687-b32e-4049-aa6a-b5d9d8f5913d",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-11T19:35:56.128571",
+    "price_on_date": 148.84569147386094,
+    "confidence_on_date": 95,
+    "distance_from_falsification": 10.25606775841551
+  },
+  {
+    "id": "6ceab6bb-c36d-4a16-83e4-4b002bd81024",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-12T19:35:56.128571",
+    "price_on_date": 147.9379819509136,
+    "confidence_on_date": 95,
+    "distance_from_falsification": 9.58369033401008
+  },
+  {
+    "id": "cd2e9bca-f32f-4e53-bd87-80019d4e5527",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-13T19:35:56.128571",
+    "price_on_date": 147.1860198296482,
+    "confidence_on_date": 95,
+    "distance_from_falsification": 9.026681355294954
+  },
+  {
+    "id": "5604fa52-bc75-4ee9-b980-82be5e41bedd",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-14T19:35:56.128571",
+    "price_on_date": 144.41207453711144,
+    "confidence_on_date": 95,
+    "distance_from_falsification": 6.97190706452699
+  },
+  {
+    "id": "1b1b508e-de31-4179-a303-9f8cacc56908",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-15T19:35:56.128571",
+    "price_on_date": 143.40385922136312,
+    "confidence_on_date": 95,
+    "distance_from_falsification": 6.225080904713423
+  },
+  {
+    "id": "a0fa4096-8194-4bb7-8ac7-eddb229f2c58",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-16T19:35:56.128571",
+    "price_on_date": 141.03154892728725,
+    "confidence_on_date": 76,
+    "distance_from_falsification": 4.467814020212776
+  },
+  {
+    "id": "033461eb-68a0-46ae-8e47-a86ecf256ade",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-17T19:35:56.128571",
+    "price_on_date": 139.7954008345953,
+    "confidence_on_date": 60,
+    "distance_from_falsification": 3.5521487663668987
+  },
+  {
+    "id": "7a50c02f-d671-4c5c-ab0c-68364afa7aa4",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-18T19:35:56.128571",
+    "price_on_date": 138.13384299341433,
+    "confidence_on_date": 36,
+    "distance_from_falsification": 2.3213651803069135
+  },
+  {
+    "id": "28769e8d-fb7a-42d1-974f-e096c426ef97",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-19T19:35:56.128571",
+    "price_on_date": 137.46688070199139,
+    "confidence_on_date": 21,
+    "distance_from_falsification": 1.8273190385121374
+  },
+  {
+    "id": "62564528-5e5a-49e4-9180-7890fb3cc98a",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-20T19:35:56.128571",
+    "price_on_date": 136.9343256205653,
+    "confidence_on_date": 13,
+    "distance_from_falsification": 1.4328337930113253
+  },
+  {
+    "id": "2913f284-41ff-45c0-a97c-5fa8a2c39381",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-21T19:35:56.128571",
+    "price_on_date": 136.798409324103,
+    "confidence_on_date": 7,
+    "distance_from_falsification": 1.332155054891115
+  },
+  {
+    "id": "195edcf8-fa51-4f67-9f65-3eb7eadc91c1",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-22T19:35:56.128571",
+    "price_on_date": 136.36222545565215,
+    "confidence_on_date": 4,
+    "distance_from_falsification": 1.0090558930756675
+  },
+  {
+    "id": "dd2320c8-c84c-4de3-9a4d-7e938562a954",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "snapshot_date": "2026-04-23T19:35:56.128571",
+    "price_on_date": 134.51659272551896,
+    "confidence_on_date": 1,
+    "distance_from_falsification": 0.35807946257854706
+  }
+]

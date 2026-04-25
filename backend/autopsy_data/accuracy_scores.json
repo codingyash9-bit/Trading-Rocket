@@ -1,0 +1,32 @@
+[
+  {
+    "id": "5bf88752-04cf-402c-b2a1-4ec32424b3a4",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "direction_score": 40,
+    "range_score": 30,
+    "time_score": 20,
+    "falsification_score": 10,
+    "total_score": 100,
+    "calculated_at": "2026-04-25T19:35:56.131647"
+  },
+  {
+    "id": "b17f967d-80a9-45fd-95bd-568e149c128d",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "direction_score": 40,
+    "range_score": 15,
+    "time_score": 20,
+    "falsification_score": 10,
+    "total_score": 85,
+    "calculated_at": "2026-04-25T19:35:56.270711"
+  },
+  {
+    "id": "78b4196c-e051-46b0-8a32-14f09249b4c6",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "direction_score": 0,
+    "range_score": 0,
+    "time_score": 20,
+    "falsification_score": 0,
+    "total_score": 20,
+    "calculated_at": "2026-04-25T19:35:56.443956"
+  }
+]

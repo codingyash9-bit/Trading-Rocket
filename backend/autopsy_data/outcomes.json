@@ -1,0 +1,35 @@
+[
+  {
+    "id": "09d18827-2e7a-4613-94ef-03375d36ce71",
+    "prediction_id": "007e121f-c78a-4736-9c4a-b872a74ac6f8",
+    "actual_close_price": 3000.0,
+    "actual_move_percent": 7.14,
+    "actual_days_to_resolve": 28,
+    "falsification_triggered": false,
+    "falsification_closest_price": 2780.0,
+    "resolved_at": "2026-04-18T19:35:56.128571",
+    "verdict": "CONFIRMED"
+  },
+  {
+    "id": "1b3ef9c6-917a-4cfe-93aa-bae3d3335edf",
+    "prediction_id": "12df23e0-659d-45a4-a0be-b8edf4d3166f",
+    "actual_close_price": 3950.0,
+    "actual_move_percent": -3.65,
+    "actual_days_to_resolve": 20,
+    "falsification_triggered": false,
+    "falsification_closest_price": 4150.0,
+    "resolved_at": "2026-04-20T19:35:56.128571",
+    "verdict": "PARTIAL"
+  },
+  {
+    "id": "46199e31-ea32-4018-aa83-bd8c1e7c20de",
+    "prediction_id": "59a5c558-8f09-4139-9051-1953b62f9df9",
+    "actual_close_price": 130.0,
+    "actual_move_percent": -13.33,
+    "actual_days_to_resolve": 12,
+    "falsification_triggered": true,
+    "falsification_closest_price": 130.0,
+    "resolved_at": "2026-04-21T19:35:56.128571",
+    "verdict": "INVALIDATED"
+  }
+]
