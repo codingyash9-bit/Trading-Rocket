@@ -9,3 +9,4 @@ services:
         value: "https://td-fawn.vercel.app,http://localhost:3000"
       - key: DEBUG
         value: "false"
+      - key: GEMINI_API_KEY
