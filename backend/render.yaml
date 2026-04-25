@@ -1,19 +1,11 @@
 services:
   - type: web
-    name: trading-rocket-backend
-    env: python
+    name: trading-rocket-api
+    runtime: python311
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
     envVars:
-      - key: PYTHON_VERSION
-        value: "3.11"
-      - key: OPENAI_API_KEY
-        sync: false
-      - key: GEMINI_API_KEY
-        sync: false
-      - key: NEWSAPI_KEY
-        sync: false
-      - key: GNEWS_API_KEY
-        sync: false
       - key: ALLOWED_ORIGINS
         value: "https://td-fawn.vercel.app,http://localhost:3000"
+      - key: DEBUG
+        value: "false"
