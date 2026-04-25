@@ -7,3 +7,4 @@ yfinance==0.2.36
 openai==1.10.0
 httpx==0.26.0
 peewee==3.17.1
+python-multipart==0.0.6
