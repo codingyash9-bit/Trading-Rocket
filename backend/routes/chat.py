@@ -79,7 +79,10 @@ async def chat(request: ChatRequest, user_id: Optional[str] = None):
         }
             
     except Exception as e:
-        return {"success": False, "message": {"content": f"Chat error: {str(e)[:100]}"}, "error": str(e)}
+        error_msg = str(e)
+        if "quota" in error_msg.lower() or "rate limit" in error_msg.lower():
+            return {"success": False, "message": {"content": "AI quota exceeded. Please try again later."}, "error": "quota_exceeded"}
+        return {"success": False, "message": {"content": f"Chat error: {error_msg[:100]}"}, "error": error_msg}
 
 @router.get("/chat/quick")
 async def quick_chat(message: str):
