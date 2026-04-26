@@ -3,19 +3,19 @@
 ```
 ╔══════════════════════════════════════════════════════════════════╗
 ║                                                                  ║
-║   ████████╗██████╗  █████╗ ██████╗ ██╗███╗  ██╗ ██████╗        ║
-║      ██╔══╝██╔══██╗██╔══██╗██╔══██╗██║████╗ ██║██╔════╝        ║
-║      ██║   ██████╔╝███████║██║  ██║██║██╔██╗██║██║  ███╗       ║
-║      ██║   ██╔══██╗██╔══██║██║  ██║██║██║╚████║██║   ██║       ║
-║      ██║   ██║  ██║██║  ██║██████╔╝██║██║ ╚███║╚██████╔╝       ║
-║      ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚══╝ ╚═════╝       ║
+║   ████████╗██████╗  █████╗ ██████╗ ██╗███╗  ██╗ ██████╗          ║
+║      ██╔══╝██╔══██╗██╔══██╗██╔══██╗██║████╗ ██║██╔════╝          ║
+║      ██║   ██████╔╝███████║██║  ██║██║██╔██╗██║██║  ███╗         ║
+║      ██║   ██╔══██╗██╔══██║██║  ██║██║██║╚████║██║   ██║         ║
+║      ██║   ██║  ██║██║  ██║██████╔╝██║██║ ╚███║╚██████╔╝         ║
+║      ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚══╝ ╚═════╝          ║
 ║                                                                  ║
-║        R  O  C  K  E  T   ──   M A R K E T   A I               ║
+║        R  O  C  K  E  T   ──   M A R K E T   A I                 ║
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
-# 🚀 TradingRocket
+# 🚀 TradingRocket : https://td-fawn.vercel.app
 
 ### *A Self-Evolving AI Market Intelligence Engine*
 
@@ -72,12 +72,12 @@ It is an AI-powered **market intelligence engine** that:
 ```
 ┌──────────────────────────────────────────────────────────────┐
 │                                                              │
-│  Traditional App  →  "Reliance Industries: BUY ↑"           │
+│  Traditional App  →  "Reliance Industries: BUY ↑"            │
 │                                                              │
-│  TradingRocket    →  "Reliance moved +3.2% because crude    │
+│  TradingRocket    →  "Reliance moved +3.2% because crude     │
 │                       oil sentiment shifted after the OPEC   │
 │                       meeting — a pattern last seen in       │
-│                       August 2022, which recovered in 6d."  │
+│                       August 2022, which recovered in 6d."   │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
 ```
@@ -161,9 +161,9 @@ The AI Chat thinks and responds like a **financial analyst**, not a tip generato
   Sample Output:
   ┌────────────────────────────────────────────────┐
   │  Sentiment  :  🔴 Negative                     │
-  │  Intensity  :  High  (8.2 / 10)               │
+  │  Intensity  :  High  (8.2 / 10)                │
   │  Affected   :  Banking · HDFC · ICICI          │
-  │  Trigger    :  RBI rate hike signal             │
+  │  Trigger    :  RBI rate hike signal            │
   └────────────────────────────────────────────────┘
 ```
 
@@ -260,23 +260,23 @@ No buy/sell signals. Pure forensic market understanding.
                             │
                             ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                    FRONTEND  ( Vercel )                          │
+│                    FRONTEND  ( Vercel )                         │
 │           Next.js / React — Futuristic UI Components            │
 └───────────────────────────┬─────────────────────────────────────┘
                             │
                             ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                   BACKEND API  ( FastAPI )                       │
-│         Data Fetching · AI Processing · Prediction Logic         │
+│                   BACKEND API  ( FastAPI )                      │
+│         Data Fetching · AI Processing · Prediction Logic        │
 └──────────────┬──────────────────────────────────┬───────────────┘
                │                                  │
                ▼                                  ▼
 ┌──────────────────────┐              ┌───────────────────────────┐
-│    Data Sources      │              │       AI Models            │
+│    Data Sources      │              │       AI Models           │
 │ ──────────────────── │              │ ───────────────────────── │
-│  Yahoo Finance       │              │  Sentiment NLP             │
-│  News APIs           │              │  Prediction Engine         │
-│  Zerodha Kite (soon) │              │  Autopsy Reasoner          │
+│  Yahoo Finance       │              │  Sentiment NLP            │
+│  News APIs           │              │  Prediction Engine        │
+│  Zerodha Kite (soon) │              │  Autopsy Reasoner         │
 └──────────────────────┘              └───────────────────────────┘
 ```
 
