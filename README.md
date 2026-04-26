@@ -1,17 +1,16 @@
 <div align="center">
 
-<!-- HERO BANNER -->
 ```
 ╔══════════════════════════════════════════════════════════════════╗
 ║                                                                  ║
-║    ████████╗██████╗  █████╗ ██████╗ ██╗███╗  ██╗ ██████╗       ║
-║       ██╔══╝██╔══██╗██╔══██╗██╔══██╗██║████╗ ██║██╔════╝       ║
-║       ██║   ██████╔╝███████║██║  ██║██║██╔██╗██║██║  ███╗      ║
-║       ██║   ██╔══██╗██╔══██║██║  ██║██║██║╚████║██║   ██║      ║
-║       ██║   ██║  ██║██║  ██║██████╔╝██║██║ ╚███║╚██████╔╝      ║
-║       ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚══╝ ╚═════╝      ║
+║   ████████╗██████╗  █████╗ ██████╗ ██╗███╗  ██╗ ██████╗        ║
+║      ██╔══╝██╔══██╗██╔══██╗██╔══██╗██║████╗ ██║██╔════╝        ║
+║      ██║   ██████╔╝███████║██║  ██║██║██╔██╗██║██║  ███╗       ║
+║      ██║   ██╔══██╗██╔══██║██║  ██║██║██║╚████║██║   ██║       ║
+║      ██║   ██║  ██║██║  ██║██████╔╝██║██║ ╚███║╚██████╔╝       ║
+║      ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚══╝ ╚═════╝       ║
 ║                                                                  ║
-║         R  O  C  K  E  T  ──  M A R K E T  A I                  ║
+║        R  O  C  K  E  T   ──   M A R K E T   A I               ║
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
@@ -26,16 +25,16 @@
 
 [![License](https://img.shields.io/badge/License-MIT-0f172a?style=for-the-badge&labelColor=f97316)](LICENSE)
 [![Status](https://img.shields.io/badge/Phase-A%20Active-0f172a?style=for-the-badge&labelColor=22c55e)](https://tradingrocket.vercel.app)
-[![Built With](https://img.shields.io/badge/AI%20Powered-Claude%20%2B%20Custom%20Models-0f172a?style=for-the-badge&labelColor=6366f1)](https://anthropic.com)
+[![Built With](https://img.shields.io/badge/AI%20Powered-Custom%20Models-0f172a?style=for-the-badge&labelColor=6366f1)](https://github.com)
 [![Frontend](https://img.shields.io/badge/Hosted%20On-Vercel-0f172a?style=for-the-badge&labelColor=000000)](https://vercel.com)
 
 <br/>
 
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   Not a signal generator. Not a tip provider.
   A forensic analyst for your financial decisions.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 </div>
@@ -47,10 +46,10 @@
 - [What is TradingRocket?](#-what-is-tradingrocket)
 - [The Philosophy](#-the-philosophy)
 - [Core Modules](#-core-modules)
-- [Architecture](#️-system-architecture)
+- [System Architecture](#️-system-architecture)
 - [UI & Design Language](#-ui--design-language)
 - [What Makes It Different](#-what-makes-it-different)
-- [Current Phase](#-current-development-phase)
+- [Current Development Phase](#-current-development-phase)
 - [Future Roadmap](#-future-roadmap)
 - [Getting Started](#-getting-started)
 - [Contributing](#-contributing)
@@ -71,14 +70,16 @@ It is an AI-powered **market intelligence engine** that:
 - 📊 **Visualizes** intelligence, not just charts
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  Traditional App    →    "Reliance Industries: BUY ↑"   │
-│                                                         │
-│  TradingRocket      →    "Reliance moved +3.2% because  │
-│                           crude oil sentiment shifted    │
-│                           after OPEC meeting, matching  │
-│                           a pattern seen in Aug 2022."  │
-└─────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│  Traditional App  →  "Reliance Industries: BUY ↑"           │
+│                                                              │
+│  TradingRocket    →  "Reliance moved +3.2% because crude    │
+│                       oil sentiment shifted after the OPEC   │
+│                       meeting — a pattern last seen in       │
+│                       August 2022, which recovered in 6d."  │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -88,17 +89,16 @@ It is an AI-powered **market intelligence engine** that:
 ```
 ╭──────────────────────────────────────────────────────────╮
 │                                                          │
-│   GUESSWORK          →       STRUCTURED REASONING       │
-│                                                          │
-│   Tips               →       Explanations               │
-│   Signals            →       Context                    │
-│   Predictions        →       Probabilistic Scenarios    │
-│   Black Box AI       →       Self-Critical AI           │
+│   GUESSWORK        →     STRUCTURED REASONING            │
+│   Tips             →     Explanations                    │
+│   Signals          →     Context                         │
+│   Predictions      →     Probabilistic Scenarios         │
+│   Black Box AI     →     Self-Critical AI                │
 │                                                          │
 ╰──────────────────────────────────────────────────────────╯
 ```
 
-The market doesn't lie — it reacts. TradingRocket helps you understand *what it reacted to*, so you can make better decisions next time.
+The market doesn't lie — it reacts. TradingRocket helps you understand *what it reacted to*, so you can make smarter decisions every time.
 
 ---
 
@@ -113,7 +113,7 @@ The market doesn't lie — it reacts. TradingRocket helps you understand *what i
 | 📈 Real-time tracking | Live stock price feeds |
 | 🕰️ Historical data | Multi-timeframe retrieval |
 | 🔌 Current API | Yahoo Finance (Phase A) |
-| 🔜 Future API | Zerodha Kite, broker-grade data |
+| 🔜 Future API | Zerodha Kite — execution-grade data |
 
 ---
 
@@ -121,18 +121,21 @@ The market doesn't lie — it reacts. TradingRocket helps you understand *what i
 
 > *Your personal market companion — not a chatbot*
 
-The AI Chat is designed to think and respond like a **financial analyst**, not a tip generator.
+The AI Chat thinks and responds like a **financial analyst**, not a tip generator.
 
 ```
-User:    "Why did Zomato drop 4% today?"
-
-AI:      "Zomato fell 4.2% following a broader sell-off 
-          in new-age tech stocks triggered by rising 
-          10-year bond yields. Sentiment also soured 
-          after competitor Swiggy reported weaker-than-
-          expected delivery growth. This pattern mirrors 
-          the Jan 2024 correction — which recovered in 
-          ~8 trading sessions."
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│  User:  "Why did Zomato drop 4% today?"                     │
+│                                                             │
+│  AI:    "Zomato fell 4.2% following a broader sell-off in   │
+│          new-age tech stocks triggered by rising 10-year    │
+│          bond yields. Sentiment soured further after        │
+│          Swiggy reported weaker delivery growth. This       │
+│          mirrors the Jan 2024 correction — recovered in     │
+│          ~8 sessions."                                      │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 - ✅ Contextual, narrative explanations
@@ -148,20 +151,20 @@ AI:      "Zomato fell 4.2% following a broader sell-off
 
 ```
   NEWS PIPELINE
-  ─────────────────────────────────────────────────
+  ──────────────────────────────────────────────────────
   📥 Collect   →  Scrape financial news in real-time
   🧠 Analyze   →  NLP-based sentiment classification
-  📡 Extract   →  Impact signals per sector/stock
+  📡 Extract   →  Impact signals per sector / stock
   📤 Output    →  Structured intelligence cards
-  ─────────────────────────────────────────────────
+  ──────────────────────────────────────────────────────
 
-  Output Format:
-  ┌──────────────────────────────────────────────┐
-  │ Sentiment  : 🔴 Negative                     │
-  │ Intensity  : High (8.2/10)                   │
-  │ Affected   : Banking sector, HDFC, ICICI     │
-  │ Trigger    : RBI rate hike signal             │
-  └──────────────────────────────────────────────┘
+  Sample Output:
+  ┌────────────────────────────────────────────────┐
+  │  Sentiment  :  🔴 Negative                     │
+  │  Intensity  :  High  (8.2 / 10)               │
+  │  Affected   :  Banking · HDFC · ICICI          │
+  │  Trigger    :  RBI rate hike signal             │
+  └────────────────────────────────────────────────┘
 ```
 
 ---
@@ -172,9 +175,9 @@ AI:      "Zomato fell 4.2% following a broader sell-off
 
 - Short-term trend forecasting
 - Pattern-based market movement estimation
-- AI model outputs treated as **scenarios**, not certainties
+- AI outputs treated as **scenarios**, not certainties
 
-> ⚠️ **Design Principle:** Predictions are labeled with confidence ranges. The system explicitly says *"this could be wrong"* — because honesty builds trust.
+> ⚠️ **Design Principle:** Predictions are labeled with confidence ranges. The system explicitly communicates uncertainty — because honesty builds trust.
 
 ---
 
@@ -182,31 +185,29 @@ AI:      "Zomato fell 4.2% following a broader sell-off
 
 > *TradingRocket's most unique feature — a self-correcting AI*
 
-This is what separates TradingRocket from every other trading app on the market.
-
 ```
   HOW IT WORKS
-  ══════════════════════════════════════════════════
-  
-  Step 1: Prediction is logged before market open
-  
-  Step 2: Actual market outcome is recorded
-  
-  Step 3: Comparison engine runs:
-          → Was the prediction correct?
-          → If wrong: WHY was it wrong?
-  
-  Step 4: Root cause is identified:
-          ├── Overfitting to old patterns?
-          ├── News misinterpretation?
-          └── Sudden anomaly / Black Swan?
-  
-  Step 5: System flags and learns — model updated
-  
-  ══════════════════════════════════════════════════
+  ════════════════════════════════════════════════════════
+
+  Step 1  →  Prediction is logged before market open
+
+  Step 2  →  Actual market outcome is recorded
+
+  Step 3  →  Comparison engine runs:
+             · Was the prediction correct?
+             · If wrong: WHY was it wrong?
+
+  Step 4  →  Root cause is identified:
+             ├── Overfitting to old patterns?
+             ├── News misinterpretation?
+             └── Sudden anomaly / Black Swan?
+
+  Step 5  →  System flags, explains, and learns
+
+  ════════════════════════════════════════════════════════
 ```
 
-**Result:** A trading AI that gets better over time, transparently.
+**Result:** A trading AI that gets smarter over time — transparently.
 
 ---
 
@@ -214,22 +215,24 @@ This is what separates TradingRocket from every other trading app on the market.
 
 > *Forensic analysis of past market events*
 
-Think of this as a **case study mode** for every major market move.
-
 ```
-  ❌ Old approach:    "NIFTY dropped 500 points."
+  ❌  Old approach:
 
-  ✅ Market Autopsy:  "NIFTY dropped 512 points on March 4th 
-                       because of:
-                       
-                       [Event]     → FII selling surge
-                       [Catalyst]  → US Fed hawkish commentary
-                       [Reaction]  → IT sector led the decline
-                       [Recovery]  → Partial recovery in 3 days
-                       [Pattern]   → Similar to Oct 2022 event"
+      "NIFTY dropped 500 points."
+
+
+  ✅  Market Autopsy:
+
+      "NIFTY dropped 512 points on March 4th because:
+
+       [Event]      →  FII selling surge
+       [Catalyst]   →  US Fed hawkish commentary
+       [Reaction]   →  IT sector led the decline
+       [Recovery]   →  Partial bounce in 3 sessions
+       [Pattern]    →  Mirrors October 2022 event"
 ```
 
-No buy/sell signals. Just pure forensic understanding.
+No buy/sell signals. Pure forensic market understanding.
 
 ---
 
@@ -243,7 +246,7 @@ No buy/sell signals. Just pure forensic understanding.
 | 🎯 Prediction vs Actual | Visual accuracy tracker |
 | 📰 News Impact Map | Heatmap of sector impact |
 | 🔴 Error Analysis Charts | Where the AI went wrong |
-| ⚡ Performance Metrics | Overall system health |
+| ⚡ Performance Metrics | Overall system health score |
 
 ---
 
@@ -252,36 +255,36 @@ No buy/sell signals. Just pure forensic understanding.
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                        USER INTERFACE                           │
-│           (Dashboard · Chat · Analytics · Features)             │
-└─────────────────────────┬───────────────────────────────────────┘
-                          │
-                          ▼
+│            Dashboard · Chat · Analytics · Features              │
+└───────────────────────────┬─────────────────────────────────────┘
+                            │
+                            ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                    FRONTEND (Vercel)                             │
-│         Next.js / React — Futuristic UI Components              │
-└─────────────────────────┬───────────────────────────────────────┘
-                          │
-                          ▼
+│                    FRONTEND  ( Vercel )                          │
+│           Next.js / React — Futuristic UI Components            │
+└───────────────────────────┬─────────────────────────────────────┘
+                            │
+                            ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                    BACKEND API (FastAPI)                         │
-│        Data Fetching · AI Processing · Prediction Logic          │
-└──────┬────────────────────────────────────────────────┬─────────┘
-       │                                                │
-       ▼                                                ▼
-┌──────────────────┐                       ┌────────────────────┐
-│  Data Sources    │                       │    AI Models       │
-│ ─────────────── │                       │ ─────────────────  │
-│ Yahoo Finance    │                       │ Sentiment NLP      │
-│ News APIs        │                       │ Prediction Engine  │
-│ [Zerodha - soon] │                       │ Autopsy Reasoner   │
-└──────────────────┘                       └────────────────────┘
+│                   BACKEND API  ( FastAPI )                       │
+│         Data Fetching · AI Processing · Prediction Logic         │
+└──────────────┬──────────────────────────────────┬───────────────┘
+               │                                  │
+               ▼                                  ▼
+┌──────────────────────┐              ┌───────────────────────────┐
+│    Data Sources      │              │       AI Models            │
+│ ──────────────────── │              │ ───────────────────────── │
+│  Yahoo Finance       │              │  Sentiment NLP             │
+│  News APIs           │              │  Prediction Engine         │
+│  Zerodha Kite (soon) │              │  Autopsy Reasoner          │
+└──────────────────────┘              └───────────────────────────┘
 ```
 
 ---
 
 ## 🎨 UI & Design Language
 
-TradingRocket's interface is designed around a single core idea:
+TradingRocket's interface is built around one idea:
 
 > **Complex finance should feel powerful — not overwhelming.**
 
@@ -290,7 +293,7 @@ TradingRocket's interface is designed around a single core idea:
 | Element | Direction |
 |---------|-----------|
 | **Theme** | Dark, deep-space aesthetic |
-| **Accent Color** | Neon orange `#f97316` on near-black `#0a0a0f` |
+| **Accent** | Neon orange `#f97316` on near-black `#0a0a0f` |
 | **Typography** | Geometric + technical display fonts |
 | **Motion** | Orbital animations, rotational card reveals |
 | **Layout** | Center-aligned planetary feature cards |
@@ -301,49 +304,44 @@ TradingRocket's interface is designed around a single core idea:
 ```
   1. CLARITY FIRST
      Data is only useful if it's readable.
-     Every chart, card, and component is crafted 
+     Every chart, card, and component is crafted
      for immediate comprehension.
 
   2. FUTURISTIC — NOT FLASHY
      Animations serve function, not ego.
-     Motion communicates state changes, 
-     not decoration.
+     Motion communicates state changes, not decoration.
 
   3. TRUST THROUGH HONESTY
-     Error states, uncertainty labels, and 
-     prediction confidence ranges are designed 
-     as first-class UI elements — not hidden.
+     Error states, uncertainty labels, and confidence
+     ranges are first-class UI elements — never hidden.
 
   4. HUMAN-CENTRIC
-     The AI is your analyst. The UI is your 
-     command center. You are always in control.
+     The AI is your analyst.
+     The UI is your command center.
+     You are always in control.
 ```
 
-### Component Highlights
+### Signature UI Components
 
-- 🌐 **Orbital Feature Cards** — interactive, rotating UI cards inspired by planetary orbits
-- ⚡ **Live Sentiment Pulse** — animated indicator showing real-time market sentiment
-- 🔴 **Prediction Accuracy Ring** — circular progress visual showing AI performance
-- 📰 **News Impact Cards** — color-coded, intensity-ranked intelligence feeds
+- 🌐 **Orbital Feature Cards** — rotating cards inspired by planetary motion
+- ⚡ **Live Sentiment Pulse** — animated real-time market sentiment indicator
+- 🎯 **Prediction Accuracy Ring** — circular progress visual for AI performance
+- 📰 **News Impact Cards** — color-coded, intensity-ranked intelligence feed
 - 🧠 **Autopsy Timelines** — vertical forensic breakdowns of market events
 
 ---
 
 ## 🥇 What Makes It Different
 
-```
-┌──────────────────────┬──────────────────────┬─────────────────────┐
-│     Feature          │  Other Trading Apps  │    TradingRocket    │
-├──────────────────────┼──────────────────────┼─────────────────────┤
-│ Market Analysis      │ Charts only          │ Cause-effect chains │
-│ AI Behavior          │ Black box signals    │ Explainable + honest│
-│ Prediction Handling  │ Predictions as truth │ Probabilistic range │
-│ Error Handling       │ Silently moves on    │ Detects + explains  │
-│ News Integration     │ Raw feed display     │ Structured impact   │
-│ User Role            │ Button-presser       │ Informed analyst    │
-│ Learning Loop        │ Static model         │ Self-evolving AI    │
-└──────────────────────┴──────────────────────┴─────────────────────┘
-```
+| Feature | Other Trading Apps | TradingRocket |
+|---|---|---|
+| Market Analysis | Charts only | Cause-effect chains |
+| AI Behavior | Black box signals | Explainable + honest |
+| Prediction Handling | Predictions as truth | Probabilistic ranges |
+| Prediction Errors | Silently moves on | Detects + explains why |
+| News Integration | Raw feed display | Structured impact scoring |
+| User Role | Button-presser | Informed analyst |
+| AI Learning | Static model | Self-evolving loop |
 
 ---
 
@@ -352,26 +350,26 @@ TradingRocket's interface is designed around a single core idea:
 ### ✅ Phase A — Active
 
 ```
-  [████████████████████░░░░] 80% Complete
+  [████████████████░░░░░░░░]  65% Complete
 
-  ✅ Yahoo Finance API integration
-  ✅ AI Chat System (core)
-  ✅ News Analysis Engine
-  ✅ Basic Prediction Engine
-  ✅ Analytics Dashboard (v1)
-  ✅ Feature UI System
-  🔄 False Prediction Detection (in progress)
-  🔄 Market Autopsy Engine (in progress)
+  ✅  Yahoo Finance API integration
+  ✅  AI Chat System (core)
+  ✅  News Analysis Engine
+  ✅  Basic Prediction Engine
+  ✅  Analytics Dashboard v1
+  ✅  Feature UI System
+  🔄  False Prediction Detection  (in progress)
+  🔄  Market Autopsy Engine       (in progress)
 ```
 
 ### 🔜 Phase B — Planned
 
 ```
-  [ ] Real-time broker API integration (Zerodha Kite)
-  [ ] Enhanced prediction accuracy layer
-  [ ] Strategy suggestion engine
-  [ ] Risk intelligence module
-  [ ] Full learning loop deployment
+  [ ]  Real-time broker API integration (Zerodha Kite)
+  [ ]  Enhanced prediction accuracy layer
+  [ ]  Strategy suggestion engine
+  [ ]  Risk intelligence module
+  [ ]  Full AI learning loop deployment
 ```
 
 ---
@@ -379,23 +377,21 @@ TradingRocket's interface is designed around a single core idea:
 ## 🗺️ Future Roadmap
 
 ```
-  2025 ──────────────────────────────────────────────────── 2026+
+  Q3 2025          Q4 2025            Q1 2026           2026+
+  ──────────       ──────────         ──────────         ──────────
+  Phase B    →     Strategy     →     Simulation   →     Full
+  Launch           Engine             Engine             Ecosystem
 
-  Q3 2025          Q4 2025           Q1 2026           Beyond
-  ──────           ────────          ────────           ──────
-  Phase B          Strategy          Simulation         Full
-  Launch     →     Engine      →     Engine       →     Ecosystem
-  
-  Broker APIs      Risk Profiles     Paper Trading      AI Learning
-  Live Data        Behavior AI       Strategy Tests     Loop v2
+  Broker APIs      Risk Profiles      Paper Trading      AI Learning
+  Live Data        Behavior AI        Strategy Tests     Loop  v2
 ```
 
-### 🔭 Long-Term Vision Modules
+### 🔭 Long-Term Vision
 
 | Module | Description |
 |--------|-------------|
 | 🤖 Autonomous Strategy Engine | AI suggests structured frameworks, not signals |
-| 🛡️ Risk Intelligence System | Personalized risk profiles based on behavior |
+| 🛡️ Risk Intelligence System | Personalized risk profiles based on user behavior |
 | 🧪 Simulation Engine | Test strategies in virtual market environments |
 | 🔁 AI Learning Loop | Continuously improves from past predictions + outcomes |
 
@@ -407,7 +403,7 @@ TradingRocket's interface is designed around a single core idea:
 # Clone the repository
 git clone https://github.com/yourusername/tradingrocket.git
 
-# Navigate to project
+# Navigate into the project
 cd tradingrocket
 
 # Install dependencies
@@ -415,25 +411,25 @@ npm install
 
 # Set up environment variables
 cp .env.example .env.local
-# Add your API keys
+# → Add your API keys to .env.local
 
-# Run development server
+# Start the development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see TradingRocket in action.
+Open [http://localhost:3000](http://localhost:3000) to see TradingRocket running.
 
 ### Environment Variables
 
 ```env
-# Required
+# Required — Phase A
 YAHOO_FINANCE_API_KEY=your_key_here
 NEWS_API_KEY=your_key_here
 AI_MODEL_ENDPOINT=your_endpoint_here
 
-# Optional (Phase B)
-ZERODHA_API_KEY=coming_soon
-ZERODHA_SECRET=coming_soon
+# Coming Soon — Phase B
+ZERODHA_API_KEY=
+ZERODHA_SECRET=
 ```
 
 ---
@@ -448,7 +444,7 @@ TradingRocket is in active development. Contributions are welcome across:
 - 📊 **Data connectors** — new API integrations welcome
 
 ```bash
-# Fork → Branch → PR
+# Standard fork → branch → PR flow
 git checkout -b feature/your-feature-name
 git commit -m "feat: describe your change"
 git push origin feature/your-feature-name
@@ -465,14 +461,18 @@ MIT License — see [LICENSE](LICENSE) for details.
 <div align="center">
 
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   TradingRocket is a self-evolving AI market analyst
-       that explains, learns, and adapts.
-            Not just predicts.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        that explains, learns, and adapts.
+                 Not just predicts.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 **Built with obsession. Designed for analysts. Powered by AI.**
+
+<br/>
+
+⭐ If TradingRocket resonates with you, star the repo — it helps!
 
 [![Star this repo](https://img.shields.io/github/stars/yourusername/tradingrocket?style=social)](https://github.com/yourusername/tradingrocket)
 
