@@ -7,3 +7,4 @@ openai
 httpx
 peewee
 python-multipart
+Pillow
