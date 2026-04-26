@@ -1,10 +1,9 @@
-# Trading Rocket Backend Requirements
-fastapi==0.109.0
-uvicorn==0.27.0
-python-dotenv==1.0.0
-pydantic==2.10.5
-yfinance==0.2.36
-openai==1.10.0
-httpx==0.26.0
-peewee==3.17.1
-python-multipart==0.0.6
+fastapi
+uvicorn
+python-dotenv
+pydantic
+yfinance
+openai
+httpx
+peewee
+python-multipart
