@@ -48,7 +48,7 @@ interface UseMarketSummaryReturn {
   refresh: () => Promise<void>;
 }
 
-const API_BASE = 'http://localhost:8000/api/pulse';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://trading-rocket.onrender.com/api/pulse';
 
 export function useTickerPulse(ticker: string): UseMarketPulseReturn {
   const [data, setData] = useState<MarketPulseData | null>(null);
