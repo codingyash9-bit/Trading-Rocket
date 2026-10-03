@@ -189,4 +189,11 @@ Trading Rocket is an educational and analytical project. Market data can be dela
 
 
 
+https://github.com/user-attachments/assets/03473240-d63e-4d62-ae1a-5c7a8fdf045c
+
+
+
+
+
+
 
