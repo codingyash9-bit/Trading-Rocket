@@ -186,3 +186,7 @@ Trading Rocket is an educational and analytical project. Market data can be dela
 <div align="center">
   <sub>Designed and developed by <a href="https://github.com/codingyash9-bit">Yash Mahadeshvar</a>.</sub>
 </div>
+
+
+
+
